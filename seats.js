@@ -6,6 +6,7 @@ const count=document.getElementById('count');
 
 function updateselectedcount(){
     const selectedseats = document.querySelectorAll('.row .seat.selected');
+    
     const selectedseatscount = selectedseats.length;
     count.innerText = selectedseatscount;
 }

@@ -24,7 +24,8 @@ body{
 display: flex;
 }
 .seat.selected
-{background-color: #ff7200;}
+{background-color: #ff7200;
+}
 .seat.occupied
 {background-color: #fff;}
 .seat:nth-last-of-type(2)
